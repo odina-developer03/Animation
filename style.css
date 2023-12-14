@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    background-color: green;
+}
+.title {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    justify-content: center;
+    margin-top: 250px;
+}
+.title_list {
+    color: yellow;
+    font-size: 100px;
+    font-family: cursive;
+    transition: 5s;
+}
+
+@keyframes onee {
+    0%   {
+        color:blueviolet; 
+        transform: translate(0px);
+    }
+    50%  {
+        color:tomato;  
+        transform: translateY(-200px) rotate(360deg);
+    }
+    100% {
+        color:gray; 
+        transform: translate(0px);
+    }
+  }
+.title:hover .one {
+    animation-duration: 5s;
+    animation-name: onee; 
+} 
+@keyframes onee {
+    0%   {
+        color:yellowgreen; 
+        transform: translate(0px);
+    }
+    50%  {
+        color:tomato;  
+        transform: translateY(-200px) rotate(360deg);
+    }
+    100% {
+        color:red; 
+        transform: translate(0px);
+    }
+  }
+.title:hover .two {
+    animation-duration: 5s;
+    animation-name: onee;
+    animation-delay: 3s; 
+} 
+@keyframes onee {
+    0%   {
+        color:red; 
+        transform: translate(0px);
+    }
+    50%  {
+        color:tomato;  
+        transform: translateY(-200px) rotate(360deg);
+    }
+    100% {
+        color:red; 
+        transform: translate(0px);
+    }
+  }
+.title:hover .there {
+    animation-duration: 5s;
+    animation-name: onee; 
+    animation-delay: 5s;
+} 
+@keyframes onee {
+    0%   {
+        color:red; 
+        transform: translate(0px);
+    }
+    50%  {
+        color:tomato;  
+        transform: translateY(-200px) rotate(360deg);
+    }
+    100% {
+        color:red; 
+        transform: translate(0px);
+    }
+  }
+.title:hover .four {
+    animation-duration: 5s;
+    animation-name: onee; 
+    animation-delay: 7s;
+} 
+@keyframes onee {
+    0%   {
+        color:yellowgreen; 
+        transform: translate(0px);
+    }
+    50%  {
+        color:darkgray;  
+        transform: translateY(-200px) rotate(360deg);
+    }
+    100% {
+        color:red; 
+        transform: translate(0px);
+    }
+  }
+.title:hover .fife {
+    animation-duration: 5s;
+    animation-name: onee; 
+    animation-delay: 9s;
+} 
+@keyframes onee {
+    0%   {
+        color:yellowgreen; 
+        transform: translate(0px);
+    }
+    50%  {
+        color:darkgray;  
+        transform: translateY(-200px) rotate(360deg);
+    }
+    100% {
+        color:red; 
+        transform: translate(0px);
+    }
+  }
+.title:hover .six {
+    animation-duration: 5s;
+    animation-name: onee; 
+    animation-delay: 11s;
+} 
+@keyframes onee {
+    0%   {
+        color:yellowgreen; 
+        transform: translate(0px);
+    }
+    50%  {
+        color:darkgray;  
+        transform: translateY(-200px) rotate(360deg);
+    }
+    100% {
+        color:red; 
+        transform: translate(0px);
+    }
+  }
+.title:hover .seven {
+    animation-duration: 5s;
+    animation-name: onee; 
+    animation-delay: 13s;
+} 
+@keyframes dod {
+    0%   {
+        color:black; 
+    }
+    50%  {
+        color:darkgray;  
+    }
+    100% {
+        color:black; 
+        transform: translate(0px);
+    }
+  }
+.title:hover .dod1 {
+   animation-iteration-count: infinite;
+   animation-duration: 3;
+    animation-name: dod; 
+   
+} 
+@keyframes dod {
+    0%   {
+        color:black; 
+    }
+    50%  {
+        color:darkgray;  
+    }
+    100% {
+        color:black; 
+    }
+  }
+.title:hover .dod2 {
+    animation-name: dod; 
+    animation-duration: 3;
+    animation-iteration-count: infinite;
+} 
+@keyframes dod {
+    0%   {
+        color:black; 
+    }
+    50%  {
+        color:darkgray;  
+    }
+    100% {
+        color:black; 
+    }
+  }
+.title:hover .dod3 {
+    animation-name: dod; 
+    animation-duration: 3;
+    animation-iteration-count: infinite;
+} 
